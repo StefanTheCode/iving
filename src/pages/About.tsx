@@ -22,7 +22,7 @@ export default function About() {
               animate={{ opacity: 1, y: 0 }}
               className="text-4xl md:text-6xl font-serif text-center text-white"
             >
-              Ko je <span className="text-gold">IVING?</span>
+              Ko je <span className="text-gold">Matić STIL?</span>
             </motion.h1>
           </div>
         </div>
@@ -37,9 +37,9 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl font-serif mb-6">Moja priča</h2>
+              <h2 className="text-3xl font-serif mb-6">Naša priča priča</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2015, IVING Interior has established itself as a leading force in luxury interior design. Our journey began with a simple yet powerful vision: to create spaces that transcend mere functionality and become works of art.
+                <b>(Nasumice opis)</b> Founded in 2015, Matić STIL Interior has established itself as a leading force in luxury interior design. Our journey began with a simple yet powerful vision: to create spaces that transcend mere functionality and become works of art.
               </p>
               <p className="text-gray-600">
                 Today, we continue to push the boundaries of design, combining traditional craftsmanship with modern innovation to create interiors that inspire and endure.
@@ -104,7 +104,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -153,7 +153,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
