@@ -56,9 +56,10 @@
         ]
       },
       "residential": {
-        "title": "Izrada nameštaja po meri",
-        "description": "Ova usluga je za Vas ukoliko želite da potpuno odlučujete o izgledu vašeg nameštaja.",
+        "title": "Dizajn kuhinje",
+        "description": "Ova usluga je za Vas ukoliko želite profesionalno dizajniranu kuhinju sa akcentom na funkcionalnost i iskorišćenost prostora.",
         "features": [
+          "3D model – prikaz dizajna kuhinje kroz render",
           "2D tehničke crteže za majstore",
           "Odabir materijala, dezena, boja",
           "Spisak galanterije za kupovinu",
@@ -66,31 +67,31 @@
         ]
       },
       "furniture": {
-        "title": "Zidne obloge",
-        "description": "Usluga je za sve one koji žele da ulepšaju svoje zidove raznovrsnim savremenim idejama:",
+        "title": "E-Dekoracija",
+        "description": "Usluga je online, biram za Vas dekoraciju i završne detalje koji će upotpuniti sliku o uređenju Vašeg doma. Usluga podrazumeva:",
         "features": [
-          "Odabir dizajna",
+          "Odabir dekoracije (astuci, tepisi, prekrivači, zidna dekoracija (slike, ogledala, satovi, ukrasi za zid), zavese, rasveta, vaze, saksije, skulpture, cveće)",
           "Ova usluga je koncipirana po prostoriji"
         ]
       },
      
       "consultation": {
-        "title": "Montaža",
-        "description": "Montiramo sve u Vašem domu bla bla...",
+        "title": "Konsultacije",
+        "description": "Ova usluga je za Vas ukoliko imate nedoumice oko uređenja prostora, sporni kutak ili problem sa izborom nekog komada nameštaja, bilo da vršite renoviranje ili opremanje iznova.",
         "features": [
           "Upoznavanje sa problematikom i prostorom",
           "Razgovor u trajanju od sat vremena gde ćemo rešiti sve nedoumice i gde ćete dobiti profesionalne savete",
-          "Rešavanje dileme oko rasporeda, materijala, boja kao i stila uređenja enterijera"
+          "Rešavanje dileme oko rasporeda, materijala, boja kao i stila uređenja enterijera",
+          "Predloge u vidu mood board-a"
         ]
       },
       "renovation": {
-        "title": "Nameštaj od medijapana i iverice",
-        "description": "Izrađujemo nemeštaj od medijapana i iverice.",
+        "title": "Renoviranje",
+        "description": "Kompletne usluge renoviranja od koncepta do realizacije.",
         "features": [
           "Planiranje projekta",
           "Upravljanje izgradnjom",
           "Nabavka materijala",
-          "Bla, bla",
           "Kontrola kvaliteta"
         ]
       }
@@ -123,9 +124,9 @@
     },
     "categories": {
       "all": "Sve",
-      "residential": "Projektovanje enterijera",
-      "commercial": "Nameštaj po meri",
-      "hospitality": "Zidne obloge"
+      "residential": "Rustičan",
+      "commercial": "Savremeni",
+      "hospitality": "Sakndinavski"
     },
     "viewDetails": "Pogledaj detalje",
     "closeModal": "Zatvori"

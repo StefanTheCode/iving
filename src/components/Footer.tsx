@@ -12,8 +12,8 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-2xl font-serif mb-4 text-gold">Matić STIL</h4>
-            <p className="text-gray-400">Stvaramo magične prostore koji odišu luksuzom.</p>
+            <h4 className="text-2xl font-serif mb-4 text-gold">IVING</h4>
+            <p className="text-gray-400">Transforming spaces into timeless masterpieces of luxury and elegance.</p>
           </motion.div>
 
           <motion.div
@@ -22,14 +22,12 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <h5 className="font-semibold mb-6 text-gold">Usluge</h5>
+            <h5 className="font-semibold mb-6 text-gold">Services</h5>
             <ul className="space-y-3 text-gray-400">
-              <li className="hover-gold-effect cursor-pointer">3D dizajn</li>
-              <li className="hover-gold-effect cursor-pointer">Projektovanje enterijera</li>
-              <li className="hover-gold-effect cursor-pointer">Izradav nameštaja po meri</li>
-              <li className="hover-gold-effect cursor-pointer">Montaža</li>
-              <li className="hover-gold-effect cursor-pointer">Zidne obloge</li>
-              <li className="hover-gold-effect cursor-pointer">Medijapan/Iverica</li>
+              <li className="hover-gold-effect cursor-pointer">Residential Design</li>
+              <li className="hover-gold-effect cursor-pointer">Commercial Spaces</li>
+              <li className="hover-gold-effect cursor-pointer">Luxury Renovation</li>
+              <li className="hover-gold-effect cursor-pointer">Custom Furniture</li>
             </ul>
           </motion.div>
 
@@ -39,20 +37,20 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            <h5 className="font-semibold mb-6 text-gold">Kontakt</h5>
+            <h5 className="font-semibold mb-6 text-gold">Contact</h5>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-gold" />
-                info@maticstil.com
+                info@iving.com
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="text-gold" />
-                0691196074
+                +1 (555) 123-4567
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} className="text-gold" />
-                123 Niš
-                <br />Srbija
+                123 Design Street
+                <br />New York, NY 10001
               </li>
             </ul>
           </motion.div>
@@ -63,7 +61,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.6 }}
           >
-            <h5 className="font-semibold mb-6 text-gold">Pratite nas</h5>
+            <h5 className="font-semibold mb-6 text-gold">Follow Us</h5>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gold transition-colors">
                 <Instagram size={24} />
@@ -82,7 +80,7 @@ export default function Footer() {
           transition={{ delay: 0.8 }}
           className="mt-16 pt-8 border-t border-gold/20 text-center text-gray-400"
         >
-          <p>&copy; {new Date().getFullYear()} Matić STIL. Sva prava zadržana.</p>
+          <p>&copy; {new Date().getFullYear()} IVING Interior. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

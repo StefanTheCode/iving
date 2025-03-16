@@ -28,7 +28,7 @@ export default function Navigation() {
             className="flex items-center"
           >
             <Link to="/" className="text-2xl font-serif tracking-wider text-gold hover-gold-effect">
-              Matić STIL
+              IVING
             </Link>
           </motion.div>
           

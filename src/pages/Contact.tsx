@@ -40,20 +40,20 @@ export default function Contact() {
               viewport={{ once: true }}
               className="bg-black p-8 rounded-lg"
             >
-              <h2 className="text-2xl font-serif mb-8 text-gold">Možete nas naći</h2>
+              <h2 className="text-2xl font-serif mb-8 text-gold">Možete me naći</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Mail className="text-gold mt-1" size={20} />
                   <div>
                     <h3 className="text-white font-semibold">Email</h3>
-                    <p className="text-gray-400">info@maticstil.com</p>
+                    <p className="text-gray-400">info@iving.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Phone className="text-gold mt-1" size={20} />
                   <div>
                     <h3 className="text-white font-semibold">Telefon</h3>
-                    <p className="text-gray-400">+381 (63) 111-1111</p>
+                    <p className="text-gray-400">+381 (63) 123-4567</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

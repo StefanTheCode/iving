@@ -24,7 +24,7 @@ export default function Home() {
             className="text-white max-w-2xl"
           >
             <h1 className="text-5xl md:text-7xl font-serif mb-6">
-             Stvaramo <span className="text-gold">magične prostore</span> koji odišu luksuzom
+             Stvaram <span className="text-gold">magične prostore</span> koji odišu luksuzom
             </h1>
             <p className="text-xl mb-8">Opremanje enterijera po sistemu <span className="text-gold"><b>"ključ u ruke!"</b></span></p>
             <a href='/projects'><motion.button
@@ -32,7 +32,7 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-gold text-black hover:bg-gold-dark transition-colors flex items-center"
             >
-           Naši projekti
+           Moji projekti
               <ChevronRight className="ml-2" size={20} />
             </motion.button></a>
           </motion.div>
@@ -62,7 +62,7 @@ export default function Home() {
               {
                 icon: <Gem size={32} />,
                 title: "Prilagođena rešenja",
-                description: "Izrada nameštaja po meri koji odražava vaš jedinstveni stil i potrebe."
+                description: "Dizajni po meri koji odražavaju vaš jedinstveni stil i potrebe."
               }
             ].map((feature, index) => (
               <motion.div
@@ -99,18 +99,18 @@ export default function Home() {
             {[
               {
                 image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
-                title: "Dizajn dnevne sobe",
-                location: "Niš, Srbija"
+                title: "Modern Minimalist Villa",
+                location: "Los Angeles, CA"
               },
               {
                 image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
-                title: "Kuhinjski elementi po meri",
-                location: "Novi Sad, Srbija"
+                title: "Contemporary Kitchen",
+                location: "New York, NY"
               },
               {
-                image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
-                title: "Ugradni plakari u hodniku",
-                location: "Beograd, Srbija"
+                image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+                title: "Luxury Master Suite",
+                location: "Miami, FL"
               }
             ].map((project, index) => (
               <motion.div
